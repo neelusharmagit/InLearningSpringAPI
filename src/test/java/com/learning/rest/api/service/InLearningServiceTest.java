@@ -14,12 +14,12 @@ import org.mockito.Mockito;
 import java.util.ArrayList;
 import java.util.List;
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+
 import org.mockito.MockitoAnnotations;
 import org.mockito.junit.jupiter.MockitoExtension;
 
-import static junit.framework.TestCase.*;
-import static org.mockito.ArgumentMatchers.eq;
+import static org.junit.jupiter.api.Assertions.*;
+
 
 @ExtendWith(MockitoExtension.class)
 public class InLearningServiceTest {
